@@ -3,6 +3,7 @@ import './App.css';
 import ComContainer from './Components/Container';
 import ComNav from './Components/Nav';
 import ComNavbar from './Components/Navbar';
+import ComAcordion from './Components/Accordion';
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
       {/* <ComContainer/> */}
       {/* <ComNav/> */}
-      <ComNavbar/>
+      {/* <ComNavbar/> */}
+      <ComAcordion/>
     </div>
   );
 }
