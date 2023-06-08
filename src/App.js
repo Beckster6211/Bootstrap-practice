@@ -6,6 +6,7 @@ import ComNavbar from './Components/Navbar';
 import ComAcordion from './Components/Accordion';
 import ComAlert from './Components/Alert';
 import ComBadge from './Components/Badge';
+import ComBreadCrumbs from './Components/Breadcrumb';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       {/* <ComNavbar/> */}
       {/* <ComAcordion/> */}
       {/* <ComAlert/> */}
-      <ComBadge/>
+      {/* <ComBadge/> */}
+      <ComBreadCrumbs/>
     </div>
   );
 }
