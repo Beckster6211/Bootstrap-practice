@@ -5,6 +5,7 @@ import ComNav from './Components/Nav';
 import ComNavbar from './Components/Navbar';
 import ComAcordion from './Components/Accordion';
 import ComAlert from './Components/Alert';
+import ComBadge from './Components/Badge';
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       {/* <ComNav/> */}
       {/* <ComNavbar/> */}
       {/* <ComAcordion/> */}
-      <ComAlert/>
+      {/* <ComAlert/> */}
+      <ComBadge/>
     </div>
   );
 }
