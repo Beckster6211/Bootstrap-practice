@@ -7,7 +7,8 @@ import ComAcordion from './Components/Accordion';
 import ComAlert from './Components/Alert';
 import ComBadge from './Components/Badge';
 import ComBreadCrumbs from './Components/Breadcrumb';
-
+import ComButton from './Components/Buttons';
+import ComButtonGroup from './Components/ButtonGroup';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
       {/* <ComAcordion/> */}
       {/* <ComAlert/> */}
       {/* <ComBadge/> */}
-      <ComBreadCrumbs/>
+      {/* <ComBreadCrumbs/> */}
+      {/* <ComButton/> */}
+      <ComButtonGroup/>
     </div>
   );
 }
