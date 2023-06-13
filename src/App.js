@@ -9,6 +9,7 @@ import ComBadge from './Components/Badge';
 import ComBreadCrumbs from './Components/Breadcrumb';
 import ComButton from './Components/Buttons';
 import ComButtonGroup from './Components/ButtonGroup';
+import ComCard from './Components/Card';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <ComBadge/> */}
       {/* <ComBreadCrumbs/> */}
       {/* <ComButton/> */}
-      <ComButtonGroup/>
+      {/* <ComButtonGroup/> */}
+      <ComCard/>
     </div>
   );
 }
