@@ -11,6 +11,7 @@ import ComButton from './Components/Buttons';
 import ComButtonGroup from './Components/ButtonGroup';
 import ComCard from './Components/Card';
 import ComCarousels from './Components/Carousels';
+import ComCloseButton from './Components/CloseButton';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <ComButton/> */}
       {/* <ComButtonGroup/> */}
       {/* <ComCard/> */}
-      <ComCarousels/>
+      {/* <ComCarousels/> */}
+      <ComCloseButton/>
     </div>
   );
 }
