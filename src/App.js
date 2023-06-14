@@ -12,6 +12,7 @@ import ComButtonGroup from './Components/ButtonGroup';
 import ComCard from './Components/Card';
 import ComCarousels from './Components/Carousels';
 import ComCloseButton from './Components/CloseButton';
+import ComDropdown from './Components/Dropdown';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <ComButtonGroup/> */}
       {/* <ComCard/> */}
       {/* <ComCarousels/> */}
-      <ComCloseButton/>
+      {/* <ComCloseButton/> */}
+      <ComDropdown/>
     </div>
   );
 }
