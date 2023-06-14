@@ -10,6 +10,7 @@ import ComBreadCrumbs from './Components/Breadcrumb';
 import ComButton from './Components/Buttons';
 import ComButtonGroup from './Components/ButtonGroup';
 import ComCard from './Components/Card';
+import ComCarousels from './Components/Carousels';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <ComBreadCrumbs/> */}
       {/* <ComButton/> */}
       {/* <ComButtonGroup/> */}
-      <ComCard/>
+      {/* <ComCard/> */}
+      <ComCarousels/>
     </div>
   );
 }
