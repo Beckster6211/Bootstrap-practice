@@ -16,6 +16,7 @@ import ComDropdown from './Components/Dropdown';
 import ComFigure from './Components/Figure';
 import ComImages from './Components/Images';
 import ComListGroups from './Components/ListGroups';
+import ComModals from './Components/Modals';
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
       {/* <ComDropdown/> */}
       {/* <ComFigure/> */}
       {/* <ComImages/> */}
-      <ComListGroups/>
+      {/* <ComListGroups/> */}
+      <ComModals/>
     </div>
   );
 }
