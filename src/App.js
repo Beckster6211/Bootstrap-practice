@@ -19,6 +19,8 @@ import ComListGroups from './Components/ListGroups';
 import ComModals from './Components/Modals';
 import ComOffCanvas from './Components/OffCanvas';
 import ComOverlays from './Components/Overlays';
+import ComPagination from './Components/Pagination';
+import ComPlaceholders from './Components/Placeholders';
 
 function App() {
   return (
@@ -41,7 +43,9 @@ function App() {
       {/* <ComListGroups/> */}
       {/* <ComModals/> */}
       {/* <ComOffCanvas/> */}
-      <ComOverlays/>
+      {/* <ComOverlays/> */}
+      {/* <ComPagination/> */}
+      <ComPlaceholders/>
     </div>
   );
 }
