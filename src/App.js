@@ -18,6 +18,7 @@ import ComImages from './Components/Images';
 import ComListGroups from './Components/ListGroups';
 import ComModals from './Components/Modals';
 import ComOffCanvas from './Components/OffCanvas';
+import ComOverlays from './Components/Overlays';
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
       {/* <ComImages/> */}
       {/* <ComListGroups/> */}
       {/* <ComModals/> */}
-      <ComOffCanvas/>
+      {/* <ComOffCanvas/> */}
+      <ComOverlays/>
     </div>
   );
 }
