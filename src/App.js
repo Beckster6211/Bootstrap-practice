@@ -13,6 +13,7 @@ import ComCard from './Components/Card';
 import ComCarousels from './Components/Carousels';
 import ComCloseButton from './Components/CloseButton';
 import ComDropdown from './Components/Dropdown';
+import ComFigure from './Components/Figure';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <ComCard/> */}
       {/* <ComCarousels/> */}
       {/* <ComCloseButton/> */}
-      <ComDropdown/>
+      {/* <ComDropdown/> */}
+      <ComFigure/>
     </div>
   );
 }

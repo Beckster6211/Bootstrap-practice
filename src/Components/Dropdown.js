@@ -218,7 +218,105 @@ function ComDropdown(){
             </SplitButton>
           ),
         )}
+        <p>Dropdown items, dropdown menu doesn't have to be links, optionally use button elements in dropdown instead of a tag. None interact dropdown items with Dropdown.ItemText</p>
+        <DropdownButton id="dropdown-item-button" title="Dropdown button">
+      <Dropdown.ItemText>Dropdown item text</Dropdown.ItemText>
+      <Dropdown.Item as="button">Action</Dropdown.Item>
+      <Dropdown.Item as="button">Another action</Dropdown.Item>
+      <Dropdown.Item as="button">Something else</Dropdown.Item>
+    </DropdownButton>
+    <p>default dropdown menu is aligned to the lefft but can be switched passing align="end" to Dropdown, DropdownButton or SplitButton</p>
+    <DropdownButton
+      align="end"
+      title="Dropdown end"
+      id="dropdown-menu-align-end"
+    >
+      <Dropdown.Item eventKey="1">Action</Dropdown.Item>
+      <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
+      <Dropdown.Item eventKey="3">Something else here</Dropdown.Item>
+      <Dropdown.Divider />
+      <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
+    </DropdownButton>
+    <p>use responsive menu alignment pass an object containing breakpoint to align prop on the DropdownMenu, DropdownButton or SplitButton. You can specify start or end.</p>
+    <div>
+        <DropdownButton
+          as={ButtonGroup}
+          align={{ lg: 'end' }}
+          title="Left-aligned but right aligned when large screen"
+          id="dropdown-menu-align-responsive-1"
+        >
+          <Dropdown.Item eventKey="1">Action 1</Dropdown.Item>
+          <Dropdown.Item eventKey="2">Action 2</Dropdown.Item>
+        </DropdownButton>
       </div>
+      <div className="mt-2">
+        <SplitButton
+          align={{ lg: 'start' }}
+          title="Right-aligned but left aligned when large screen"
+          id="dropdown-menu-align-responsive-2"
+        >
+          <Dropdown.Item eventKey="1">Action 1</Dropdown.Item>
+          <Dropdown.Item eventKey="2">Action 2</Dropdown.Item>
+        </SplitButton>
+      </div>
+      </div>
+      <p>Separate groups of related menu items with a divider</p>
+      <Dropdown.Menu show>
+      <Dropdown.Item eventKey="1">Action</Dropdown.Item>
+      <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
+      <Dropdown.Item eventKey="3">Something else here</Dropdown.Item>
+      <Dropdown.Divider />
+      <Dropdown.Item eventKey="4">Separated link</Dropdown.Item>
+    </Dropdown.Menu>
+            <p>AutoClose, default dropdown menu closed when selecting menu item or clicking outside dropdown menu, this can be changed using autoClose prop. Default autoClose set default value true bhaves as expected. Choose false dropdown menu toggled by clicking dropdown button. inside makes the dropdown disappear only by choosing a menu item and outside closes dropdown only by clicking outside</p>
+            <Dropdown className="d-inline mx-2">
+        <Dropdown.Toggle id="dropdown-autoclose-true">
+          Default Dropdown
+        </Dropdown.Toggle>
+
+        <Dropdown.Menu>
+          <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+          <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+          <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
+
+      <Dropdown className="d-inline mx-2" autoClose="inside">
+        <Dropdown.Toggle id="dropdown-autoclose-inside">
+          Clickable Outside
+        </Dropdown.Toggle>
+
+        <Dropdown.Menu>
+          <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+          <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+          <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
+
+      <Dropdown className="d-inline mx-2" autoClose="outside">
+        <Dropdown.Toggle id="dropdown-autoclose-outside">
+          Clickable Inside
+        </Dropdown.Toggle>
+
+        <Dropdown.Menu>
+          <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+          <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+          <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
+
+      <Dropdown className="d-inline mx-2" autoClose={false}>
+        <Dropdown.Toggle id="dropdown-autoclose-false">
+          Manual Close
+        </Dropdown.Toggle>
+
+        <Dropdown.Menu>
+          <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+          <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+          <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
+
     </div>
     )
 }
