@@ -14,6 +14,7 @@ import ComCarousels from './Components/Carousels';
 import ComCloseButton from './Components/CloseButton';
 import ComDropdown from './Components/Dropdown';
 import ComFigure from './Components/Figure';
+import ComImages from './Components/Images';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <ComCarousels/> */}
       {/* <ComCloseButton/> */}
       {/* <ComDropdown/> */}
-      <ComFigure/>
+      {/* <ComFigure/> */}
+      <ComImages/>
     </div>
   );
 }
