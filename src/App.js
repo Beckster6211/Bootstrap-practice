@@ -22,6 +22,8 @@ import ComOverlays from './Components/Overlays';
 import ComPagination from './Components/Pagination';
 import ComPlaceholders from './Components/Placeholders';
 import ComProgressBar from './Components/ProgressBar';
+import ComSpinner from './Components/Spinners';
+import ComTables from './Components/Tables';
 
 function App() {
   return (
@@ -47,7 +49,9 @@ function App() {
       {/* <ComOverlays/> */}
       {/* <ComPagination/> */}
       {/* <ComPlaceholders/> */}
-      <ComProgressBar/>
+      {/* <ComProgressBar/> */}
+      {/* <ComSpinner/> */}
+      <ComTables/>
     </div>
   );
 }
