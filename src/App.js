@@ -25,6 +25,7 @@ import ComProgressBar from './Components/ProgressBar';
 import ComSpinner from './Components/Spinners';
 import ComTables from './Components/Tables';
 import ComTabs from './Components/Tabs';
+import ComToast from './Components/Toasts';
 
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
       {/* <ComProgressBar/> */}
       {/* <ComSpinner/> */}
       {/* <ComTables/> */}
-      <ComTabs/>
+      {/* <ComTabs/> */}
+      <ComToast/>
     </div>
   );
 }
