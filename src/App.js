@@ -26,6 +26,7 @@ import ComSpinner from './Components/Spinners';
 import ComTables from './Components/Tables';
 import ComTabs from './Components/Tabs';
 import ComToast from './Components/Toasts';
+import ComForm from './Components/Forms';
 
 function App() {
   return (
@@ -55,7 +56,8 @@ function App() {
       {/* <ComSpinner/> */}
       {/* <ComTables/> */}
       {/* <ComTabs/> */}
-      <ComToast/>
+      {/* <ComToast/> */}
+      <ComForm/>
     </div>
   );
 }
