@@ -21,6 +21,7 @@ import ComOffCanvas from './Components/OffCanvas';
 import ComOverlays from './Components/Overlays';
 import ComPagination from './Components/Pagination';
 import ComPlaceholders from './Components/Placeholders';
+import ComProgressBar from './Components/ProgressBar';
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
       {/* <ComOffCanvas/> */}
       {/* <ComOverlays/> */}
       {/* <ComPagination/> */}
-      <ComPlaceholders/>
+      {/* <ComPlaceholders/> */}
+      <ComProgressBar/>
     </div>
   );
 }
