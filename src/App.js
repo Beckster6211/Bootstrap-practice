@@ -26,8 +26,10 @@ import ComSpinner from './Components/Spinners';
 import ComTables from './Components/Tables';
 import ComTabs from './Components/Tabs';
 import ComToast from './Components/Toasts';
-import ComForm from './Components/Forms';
-import ComFormControls from './Components/FormControls';
+import ComForm from './Components/Form/Forms';
+import ComFormControls from './Components/Form/FormControls';
+import ComFormText from './Components/Form/FormText';
+import ComFormSelect from './Components/Form/FormSelect';
 
 function App() {
   return (
@@ -59,7 +61,9 @@ function App() {
       {/* <ComTabs/> */}
       {/* <ComToast/> */}
       {/* <ComForm/> */}
-      <ComFormControls/>
+      {/* <ComFormControls/> */}
+      {/* <ComFormText/> */}
+      <ComFormSelect/>
     </div>
   );
 }
