@@ -27,6 +27,7 @@ import ComTables from './Components/Tables';
 import ComTabs from './Components/Tabs';
 import ComToast from './Components/Toasts';
 import ComForm from './Components/Forms';
+import ComFormControls from './Components/FormControls';
 
 function App() {
   return (
@@ -57,7 +58,8 @@ function App() {
       {/* <ComTables/> */}
       {/* <ComTabs/> */}
       {/* <ComToast/> */}
-      <ComForm/>
+      {/* <ComForm/> */}
+      <ComFormControls/>
     </div>
   );
 }
