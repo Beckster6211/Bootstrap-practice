@@ -31,6 +31,8 @@ import ComFormControls from './Components/Form/FormControls';
 import ComFormText from './Components/Form/FormText';
 import ComFormSelect from './Components/Form/FormSelect';
 import ComFormCheckandRadio from './Components/Form/FormChecksandRadio';
+import ComFormRange from './Components/Form/FormRange';
+
 
 function App() {
   return (
@@ -65,7 +67,8 @@ function App() {
       {/* <ComFormControls/> */}
       {/* <ComFormText/> */}
       {/* <ComFormSelect/> */}
-      <ComFormCheckandRadio/>
+      {/* <ComFormCheckandRadio/> */}
+      <ComFormRange/>
     </div>
   );
 }
